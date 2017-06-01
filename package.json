@@ -1,0 +1,26 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "Simple api",
+  "main": "app.js",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "bunyan": "^1.8.10",
+    "bunyan-debug-stream": "^1.0.8",
+    "express": "*",
+    "express-jwt": "^5.3.0",
+    "http": "0.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "*",
+    "path": "^0.12.7"
+  },
+  "author": "StackHour Kushal",
+  "license": "ISC"
+}
